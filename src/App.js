@@ -15,7 +15,7 @@ const App = () => {
   };
 
   return (
-    <div className="flex flex-col py-5">
+    <div className="flex flex-col pt-5 mx-auto md:w-10/12">
       <Header />
       <FileUploader
         onUpload={(filesToUpload) => handleFileUpload(filesToUpload)}

@@ -22,11 +22,11 @@ const Dropzone = ({ onSelect }) => {
     >
       <input {...getInputProps()} />
       {isDragActive ? (
-        <p className="w-full p-4 font-semibold text-center text-blue-700 border border-blue-700">
+        <p className="w-full p-4 font-semibold text-center border text-primary border-primary">
           Drop the files here ...
         </p>
       ) : (
-        <p className="w-full p-4 font-semibold text-center text-blue-700 border border-blue-700">
+        <p className="w-full p-4 font-semibold text-center border text-primary border-primary">
           Chose or Drag Files
         </p>
       )}
